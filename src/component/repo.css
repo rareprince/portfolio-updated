@@ -1,0 +1,81 @@
+.modalBackground {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  width: 50%;
+  height: 70%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  overflow: auto;
+}
+
+.container {
+  position: relative;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 0;
+}
+
+.container .closeBtn .tCancel {
+  background: crimson;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 40%;
+  border: none;
+}
+
+.container .closeBtn button {
+  cursor: pointer;
+}
+
+.container .body,
+.footer {
+  text-align: center;
+}
+
+.repo-list-container {
+  padding: 0;
+  height: 50%;
+  overflow: auto;
+}
+
+.repo-list {
+  list-style: none;
+  padding: 0.5rem 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.container .footer button {
+  width: 100px;
+  height: 35px;
+  margin: 10px;
+  border: none;
+  /* background-color: cornflowerblue; */
+  color: white;
+  border-radius: 8px;
+  font-size: 17px;
+  cursor: pointer;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+}
+
+#cancelBtn {
+  background-color: crimson;
+}
